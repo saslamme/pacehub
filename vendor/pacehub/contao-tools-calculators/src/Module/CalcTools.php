@@ -13,6 +13,13 @@ class CalcTools extends Module
         $defaultDistance = (float) ($this->calc_default_distance ?: 10.0);
         if ($this->Template->calculatorType === 'swim_pace') {
             $defaultDistance = $defaultDistance > 0 ? $defaultDistance : 1500.0;
+        } elseif ($this->Template->calculatorType === 'ergometer') {
+            $candidate = (float) $this->calc_default_distance;
+            if ($candidate >= 100) {
+                $defaultDistance = $candidate;
+            } else {
+                $defaultDistance = 2000.0;
+            }
         }
 
         $this->Template->defaultDistance = $defaultDistance;
@@ -27,6 +34,9 @@ class CalcTools extends Module
         if ($this->Template->calculatorType === 'swim_pace') {
             $distanceMaxDefault  = '10000';
             $distanceStepDefault = '1';
+        } elseif ($this->Template->calculatorType === 'ergometer') {
+            $distanceMaxDefault  = '30000';
+            $distanceStepDefault = '10';
         }
 
         $this->Template->distanceMin  = (string) ($this->calc_distance_min  !== null && $this->calc_distance_min  !== '' ? $this->calc_distance_min  : $distanceMinDefault);
@@ -38,7 +48,7 @@ class CalcTools extends Module
         $this->Template->speedStep = (string) ($this->calc_speed_step !== null && $this->calc_speed_step !== '' ? $this->calc_speed_step : '0.1');
 
         // Cache-busted JS filename
-        $GLOBALS['TL_JAVASCRIPT']['tools_calculators'] = 'bundles/toolscalculators/tools.v188.js|static';
+        $GLOBALS['TL_JAVASCRIPT']['tools_calculators'] = 'bundles/toolscalculators/tools.v189.js|static';
         $GLOBALS['TL_CSS']['tools_calculators'] = 'bundles/toolscalculators/tools.css|static';
     }
 }

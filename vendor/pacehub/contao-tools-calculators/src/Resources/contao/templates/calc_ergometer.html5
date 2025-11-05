@@ -1,0 +1,73 @@
+<h2 class="tools-h">Ergometer-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">Voreinstellungen</div>
+    <div class="preset-row">
+      <button type="button" class="preset" data-distance="500" data-time="00:01:45">500&nbsp;m · 1:45</button>
+      <button type="button" class="preset" data-distance="1000" data-time="00:03:40">1000&nbsp;m · 3:40</button>
+      <button type="button" class="preset" data-distance="2000" data-time="00:07:40">2000&nbsp;m · 7:40</button>
+      <button type="button" class="preset" data-distance="5000" data-time="00:19:30">5000&nbsp;m · 19:30</button>
+      <button type="button" class="preset" data-distance="6000" data-time="00:23:45">6000&nbsp;m · 23:45</button>
+      <button type="button" class="preset" data-distance="10000" data-time="00:40:00">10000&nbsp;m · 40:00</button>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">1 · Distanz &amp; Zeit</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Distanz (m)</span>
+        <input type="number" min="0" step="10" value="" data-field="ergo_distance" aria-label="Distanz Zahleneingabe">
+        <input type="range" min="0" max="30000" step="10" value="2000" data-field="ergo_distance_slider" aria-label="Distanz Schieberegler">
+        <div class="quick-row">
+          <button type="button" class="quick" data-distance="500">500</button>
+          <button type="button" class="quick" data-distance="1000">1000</button>
+          <button type="button" class="quick" data-distance="2000">2000</button>
+          <button type="button" class="quick" data-distance="5000">5000</button>
+          <button type="button" class="quick" data-distance="6000">6000</button>
+          <button type="button" class="quick" data-distance="10000">10000</button>
+        </div>
+      </label>
+      <div class="tools-field">
+        <span>Zeit</span>
+        <div class="time-triple">
+          <input type="number" min="0" step="1" placeholder="hh" data-field="ergo_time_h" aria-label="Stunden">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="mm" data-field="ergo_time_m" aria-label="Minuten">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="ss" data-field="ergo_time_s" aria-label="Sekunden">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">2 · Split &amp; Leistung</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Split (min/500&nbsp;m)</span>
+        <input type="text" inputmode="decimal" placeholder="z. B. 01:55" data-field="ergo_split" aria-label="Split Zahleneingabe">
+      </label>
+      <label class="tools-field">
+        <span>Leistung (W)</span>
+        <input type="number" min="0" step="1" placeholder="z. B. 250" data-field="ergo_watts" aria-label="Leistung Zahleneingabe">
+      </label>
+    </div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnisse</div>
+  <div class="results-row">
+    <div><span>Distanz</span><strong class="js-ergo-distance">–</strong></div>
+    <div><span>Zeit</span><strong class="js-ergo-time">–</strong></div>
+    <div><span>Split</span><strong class="js-ergo-pace">–</strong></div>
+    <div><span>Geschwindigkeit</span><strong class="js-ergo-speed">–</strong></div>
+    <div><span>Leistung</span><strong class="js-ergo-watts">–</strong></div>
+  </div>
+</div>

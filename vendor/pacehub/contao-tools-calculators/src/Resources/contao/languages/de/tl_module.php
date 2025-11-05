@@ -28,3 +28,4 @@ $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['pace'] = 'Pace-Rechner'
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['vo2max'] = 'VO₂max-Rechner';
 
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['vdot'] = 'VDOT-Rechner';
+$GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['bike_watt'] = 'Watt-Rechner (Radfahren)';

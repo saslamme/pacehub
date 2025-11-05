@@ -21,6 +21,8 @@ $type = $this->calculatorType ?: 'pace';
     $template = 'calc_vdot';
   } elseif ($this->calculatorType === 'bike_watt') {
     $template = 'calc_bike_watt';
+  } elseif ($this->calculatorType === 'ftp') {
+    $template = 'calc_ftp';
   }
   $this->insert($template);
 ?>

@@ -12,7 +12,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['calc_tools_type'] = [
   'label'     => &$GLOBALS['TL_LANG']['tl_module']['calc_tools_type'],
   'exclude'   => true,
   'inputType' => 'select',
-  'options'   => ['pace','vo2max','vdot'],
+  'options'   => ['pace','vo2max','vdot','bike_watt'],
   'reference' => &$GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref'],
   'eval'      => ['mandatory'=>true, 'tl_class'=>'w50 clr'],
   'sql'       => "varchar(16) NOT NULL default 'pace'",

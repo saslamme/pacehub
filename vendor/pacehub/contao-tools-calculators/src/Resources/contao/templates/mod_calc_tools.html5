@@ -13,7 +13,17 @@ $type = $this->calculatorType ?: 'pace';
      data-speed-max="<?= $this->speedMax ?>"
      data-speed-step="<?= $this->speedStep ?>">
 
-  <?php $this->insert($this->calculatorType === 'vo2max' ? 'calc_vo2max' : ($this->calculatorType === 'vdot' ? 'calc_vdot' : 'calc_pace')); ?>
+<?php
+  $template = 'calc_pace';
+  if ($this->calculatorType === 'vo2max') {
+    $template = 'calc_vo2max';
+  } elseif ($this->calculatorType === 'vdot') {
+    $template = 'calc_vdot';
+  } elseif ($this->calculatorType === 'bike_watt') {
+    $template = 'calc_bike_watt';
+  }
+  $this->insert($template);
+?>
 
   <p class="tools-error" aria-live="polite" hidden></p>
 </div>

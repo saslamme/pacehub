@@ -29,3 +29,4 @@ $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['vo2max'] = 'VO₂max-Re
 
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['vdot'] = 'VDOT-Rechner';
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['bike_watt'] = 'Watt-Rechner (Radfahren)';
+$GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['ftp'] = 'FTP-Rechner';

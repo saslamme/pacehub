@@ -1,0 +1,45 @@
+<h2 class="tools-h">BMI-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">1 · Einheit wählen</div>
+    <div class="pace-row">
+      <label class="toggle">
+        <input type="radio" name="bmi_unit" value="metric" data-field="bmi_unit" checked>
+        <span>Metrisch (kg/cm)</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="bmi_unit" value="imperial" data-field="bmi_unit">
+        <span>Imperial (lb/in)</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">2 · Körperdaten</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Körpergewicht (<span class="js-unit-weight">kg</span>)</span>
+        <input type="number" min="0" step="0.1" data-field="bmi_weight" placeholder="z.&nbsp;B. 70">
+      </label>
+      <label class="tools-field">
+        <span>Körpergröße (<span class="js-unit-height">cm</span>)</span>
+        <input type="number" min="0" step="0.1" data-field="bmi_height" placeholder="z.&nbsp;B. 175">
+      </label>
+    </div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnisse</div>
+  <div class="results-row">
+    <div><span>BMI</span><strong class="js-bmi-value">–</strong></div>
+    <div><span>Kategorie</span><strong class="js-bmi-category">–</strong></div>
+    <div><span>Gesundes Gewicht</span><strong class="js-bmi-range">–</strong></div>
+  </div>
+  <div class="tools-note">Der BMI ist ein Richtwert und ersetzt keine individuelle medizinische Beurteilung.</div>
+</div>

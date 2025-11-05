@@ -1,0 +1,66 @@
+<h2 class="tools-h">Körperfett-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">1 · Einheit wählen</div>
+    <div class="pace-row">
+      <label class="toggle">
+        <input type="radio" name="bodyfat_unit" value="metric" data-field="bodyfat_unit" checked>
+        <span>Metrisch (cm)</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="bodyfat_unit" value="imperial" data-field="bodyfat_unit">
+        <span>Imperial (in)</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">2 · Geschlecht wählen</div>
+    <div class="pace-row">
+      <label class="toggle">
+        <input type="radio" name="bodyfat_sex" value="male" data-field="bodyfat_sex" checked>
+        <span>Mann</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="bodyfat_sex" value="female" data-field="bodyfat_sex">
+        <span>Frau</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">3 · Körpermaße eintragen</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Taillenumfang (<span class="js-unit-length">cm</span>)</span>
+        <input type="number" min="0" step="0.1" data-field="bodyfat_waist" placeholder="z.&nbsp;B. 80">
+      </label>
+      <label class="tools-field">
+        <span>Halsumfang (<span class="js-unit-length">cm</span>)</span>
+        <input type="number" min="0" step="0.1" data-field="bodyfat_neck" placeholder="z.&nbsp;B. 38">
+      </label>
+      <label class="tools-field js-bodyfat-hip-row" style="display:none">
+        <span>Hüftumfang (<span class="js-unit-length">cm</span>)</span>
+        <input type="number" min="0" step="0.1" data-field="bodyfat_hip" placeholder="z.&nbsp;B. 95">
+      </label>
+      <label class="tools-field">
+        <span>Körpergröße (<span class="js-unit-length">cm</span>)</span>
+        <input type="number" min="0" step="0.1" data-field="bodyfat_height" placeholder="z.&nbsp;B. 175">
+      </label>
+    </div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnisse</div>
+  <div class="results-row">
+    <div><span>Körperfettanteil</span><strong class="js-bodyfat-value">–</strong></div>
+    <div><span>Kategorie</span><strong class="js-bodyfat-category">–</strong></div>
+  </div>
+  <div class="tools-note">Berechnung nach der US-Navy-Formel. Ergebnisse sind Richtwerte und ersetzen keine individuelle Beratung.</div>
+</div>

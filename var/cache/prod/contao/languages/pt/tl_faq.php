@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/faq-bundle/src/Resources/contao/languages/pt/tl_faq.xlf
+$GLOBALS['TL_LANG']['tl_faq']['question'][0] = 'Questão';
+$GLOBALS['TL_LANG']['tl_faq']['question'][1] = 'Favor inserir a questão.';
+$GLOBALS['TL_LANG']['tl_faq']['alias'][0] = 'Apelido da FAQ';
+$GLOBALS['TL_LANG']['tl_faq']['alias'][1] = 'O apelido da FAQ é uma referência única à FAQ e esta pode ser referenciada pelo apelido em vez do seu ID.';
+$GLOBALS['TL_LANG']['tl_faq']['author'][0] = 'Autor';
+$GLOBALS['TL_LANG']['tl_faq']['author'][1] = 'Por favor, escolha um autor';
+$GLOBALS['TL_LANG']['tl_faq']['answer'][0] = 'Resposta';
+$GLOBALS['TL_LANG']['tl_faq']['answer'][1] = 'Favor inserir a resposta.';
+$GLOBALS['TL_LANG']['tl_faq']['addImage'][0] = 'Adicionar imagem';
+$GLOBALS['TL_LANG']['tl_faq']['addImage'][1] = 'Adicione uma imagem à resposta.';
+$GLOBALS['TL_LANG']['tl_faq']['pageTitle'][0] = 'Titulo meta';
+$GLOBALS['TL_LANG']['tl_faq']['pageTitle'][1] = 'Aqui pode adicionar um titulo meta para substituir o titulo de página padrão.';
+$GLOBALS['TL_LANG']['tl_faq']['robots'][0] = 'Tag dos robôs';
+$GLOBALS['TL_LANG']['tl_faq']['robots'][1] = 'Aqui pode escrever por cima da forma como os motores de busca lidam com as FAQ.';
+$GLOBALS['TL_LANG']['tl_faq']['description'][0] = 'Informação meta';
+$GLOBALS['TL_LANG']['tl_faq']['description'][1] = 'Aqui pode adicionar uma descrição meta para substituir a descrição  de página padrão.';
+$GLOBALS['TL_LANG']['tl_faq']['addEnclosure'][0] = 'Adicionar anexo';
+$GLOBALS['TL_LANG']['tl_faq']['addEnclosure'][1] = 'Adiciona um arquivo à resposta.';
+$GLOBALS['TL_LANG']['tl_faq']['enclosure'][0] = 'Anexos';
+$GLOBALS['TL_LANG']['tl_faq']['enclosure'][1] = 'Por favor escolha os ficheiros para serem anexados.';
+$GLOBALS['TL_LANG']['tl_faq']['noComments'][0] = 'Desativar comentários';
+$GLOBALS['TL_LANG']['tl_faq']['noComments'][1] = 'Não permitir comentários para esta FAQ particular.';
+$GLOBALS['TL_LANG']['tl_faq']['published'][0] = 'Publicado';
+$GLOBALS['TL_LANG']['tl_faq']['published'][1] = 'A FAQ não será visível no seu website até que seja publicada.';
+$GLOBALS['TL_LANG']['tl_faq']['title_legend'] = 'Título e autor';
+$GLOBALS['TL_LANG']['tl_faq']['answer_legend'] = 'Resposta';
+$GLOBALS['TL_LANG']['tl_faq']['meta_legend'] = 'Metadado';
+$GLOBALS['TL_LANG']['tl_faq']['image_legend'] = 'Configurações de imagem';
+$GLOBALS['TL_LANG']['tl_faq']['enclosure_legend'] = 'Anexos';
+$GLOBALS['TL_LANG']['tl_faq']['expert_legend'] = 'Configurações avançadas';
+$GLOBALS['TL_LANG']['tl_faq']['publish_legend'] = 'Configurações de Publicação';
+$GLOBALS['TL_LANG']['tl_faq']['new'][0] = 'Novo';
+$GLOBALS['TL_LANG']['tl_faq']['new'][1] = 'Cria uma nova questão.';
+$GLOBALS['TL_LANG']['tl_faq']['show'] = 'Exibe detalhes da questão ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['edit'] = 'Edita a questão ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['copy'] = 'Duplica a questão ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['cut'] = 'Move a questão ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['delete'] = 'Remover a questão ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['toggle'] = 'Publicar/despublicar pergunta ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['pasteafter'][0] = 'Colar no início';
+$GLOBALS['TL_LANG']['tl_faq']['pasteafter'][1] = 'Cola após a questão ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['pastenew'][0] = 'Criar uma nova questão no topo';
+$GLOBALS['TL_LANG']['tl_faq']['pastenew'][1] = 'Criar uma nova questão depois da questão com ID %s ';

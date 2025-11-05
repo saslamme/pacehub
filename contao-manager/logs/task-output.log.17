@@ -1,0 +1,30 @@
+$ /bin/php83 -q -dmax_execution_time=0 -dmemory_limit=-1 -ddisplay_errors=0 -ddisplay_startup_errors=0 -derror_reporting=0 -dallow_url_fopen=1 -ddisable_functions= -ddate.timezone=Europe/Berlin /usr/www/users/secutia/pacehub_neu/web/contao-manager.phar.php composer require pacehub/contao-tools-calculators=1.5.2 --no-update --no-scripts --prefer-stable --sort-packages --no-ansi --no-interaction
+
+
+# Process terminated with exit code 0
+# Result: OK
+
+
+> Resolving dependencies using Composer Cloud v3.8.2
+
+[7.0MiB/0.26s] Loading composer repositories with package information
+[60.2MiB/11.40s] Updating dependencies
+[23.3MiB/11.82s] Lock file operations: 0 installs, 1 update, 0 removals
+[23.3MiB/11.83s]   - Upgrading pacehub/contao-tools-calculators (1.5.1 => 1.5.2)
+[22.6MiB/11.84s] Writing lock file
+[12.6MiB/11.87s] <warning>Package doctrine/annotations is abandoned, you should avoid using it. No replacement was suggested.</warning>
+[12.6MiB/11.87s] <warning>Package doctrine/cache is abandoned, you should avoid using it. No replacement was suggested.</warning>
+[12.6MiB/11.87s] <warning>Package php-http/message-factory is abandoned, you should avoid using it. Use psr/http-factory instead.</warning>
+[12.8MiB/12.32s] No security vulnerability advisories found.
+[13.2MiB/12.34s] Memory usage: 13.23MB (peak: 155.06MB), time: 12.37s.
+[13.2MiB/12.34s] Finished Composer Cloud resolving.
+
+
+# Job ID T3oqMp68DOv3ozIMRNCesx7lSiloOf6Hv3ZSYOIrTN9SC3vv3eVNEm9UhUcP3VJt1GUBZ1t0l4qxHeHRmaGGSiPoT5tMrwXsiF866FDiVHIzkNe8AgvoX1a completed in 14 seconds
+# Memory usage: 13.23MB (peak: 155.06MB), time: 12.37s.
+
+$ /bin/php83 -q -dmax_execution_time=0 -dmemory_limit=-1 -ddisplay_errors=0 -ddisplay_startup_errors=0 -derror_reporting=0 -dallow_url_fopen=1 -ddisable_functions= -ddate.timezone=Europe/Berlin /usr/www/users/secutia/pacehub_neu/web/contao-manager.phar.php composer install --no-dev --no-progress --no-ansi --no-interaction --optimize-autoloader
+
+
+# Process terminated with exit code 0
+# Result: OK

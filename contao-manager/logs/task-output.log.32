@@ -1,0 +1,32 @@
+- Artefakt für pacehub/contao-tools-calculators (Version 1.0.0) [nach packages/pacehub__contao-tools-calculators__1.0.0.0__bd2278ea.zip] installiert
+
+$ /bin/php83 -q -dmax_execution_time=0 -dmemory_limit=-1 -ddisplay_errors=0 -ddisplay_startup_errors=0 -derror_reporting=0 -dallow_url_fopen=1 -ddisable_functions= -ddate.timezone=Europe/Berlin /usr/www/users/secutia/pacehub_neu/web/contao-manager.phar.php composer require pacehub/contao-tools-calculators=1.0.0 --no-update --no-scripts --prefer-stable --sort-packages --no-ansi --no-interaction
+
+
+# Process terminated with exit code 0
+# Result: OK
+
+
+> Resolving dependencies using Composer Cloud v3.8.2
+
+[6.9MiB/0.23s] Loading composer repositories with package information
+[60.1MiB/11.72s] Updating dependencies
+[23.2MiB/12.23s] Lock file operations: 1 install, 0 updates, 0 removals
+[23.2MiB/12.24s]   - Locking pacehub/contao-tools-calculators (1.0.0)
+[22.5MiB/12.25s] Writing lock file
+[12.4MiB/12.27s] <warning>Package doctrine/annotations is abandoned, you should avoid using it. No replacement was suggested.</warning>
+[12.4MiB/12.27s] <warning>Package doctrine/cache is abandoned, you should avoid using it. No replacement was suggested.</warning>
+[12.4MiB/12.28s] <warning>Package php-http/message-factory is abandoned, you should avoid using it. Use psr/http-factory instead.</warning>
+[12.6MiB/12.68s] No security vulnerability advisories found.
+[13.1MiB/12.69s] Memory usage: 13.1MB (peak: 154.93MB), time: 12.72s.
+[13.1MiB/12.70s] Finished Composer Cloud resolving.
+
+
+# Job ID eWU8aGcGLCB5H1GMDEyELPD0RwjW78GjOpbOkfQBILb05auNdZM4JVfqrcXpomaotXLBr5fFBdmDXJAoq2RYLCyfdAZVf0PBzamsXY completed in 13 seconds
+# Memory usage: 13.1MB (peak: 154.93MB), time: 12.72s.
+
+$ /bin/php83 -q -dmax_execution_time=0 -dmemory_limit=-1 -ddisplay_errors=0 -ddisplay_startup_errors=0 -derror_reporting=0 -dallow_url_fopen=1 -ddisable_functions= -ddate.timezone=Europe/Berlin /usr/www/users/secutia/pacehub_neu/web/contao-manager.phar.php composer install --no-dev --no-progress --no-ansi --no-interaction --optimize-autoloader
+
+
+# Process terminated with exit code 255
+# Result: Unknown error

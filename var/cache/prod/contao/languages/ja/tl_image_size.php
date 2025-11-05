@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/ja/tl_image_size.xlf
+$GLOBALS['TL_LANG']['tl_image_size']['name'][0] = '名前';
+$GLOBALS['TL_LANG']['tl_image_size']['name'][1] = '画像サイズの名前を入力してください。';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][0] = '幅(width)';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][1] = 'ピクセル単位の幅を入力できます。';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][0] = '高さ(height)';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][1] = 'ピクセル単位の高さを入力できます。';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][0] = 'サイズ変更の方法';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][1] = '幅と高さを指定している場合だけ適用できます。';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][0] = '拡大表示';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][1] = '0で画像全体を見える状態に、100で画像の重要な部分だけ見える状態にします。';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][0] = '大きさの属性';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][1] = '表示する画像に意図する配置の幅を指定できます、実際の幅はCSSで指定しなければなりません。例: <em>(max-width: 600px) 100vw, 50vw</em>';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][0] = '画素密度/倍率';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][1] = '画素密度(例: <em>1x, 1.5x, 2x</em>)またはwidth記述子(例: <em>100w, 200w</em>)を指定できます。';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][0] = 'CSSのクラス';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][1] = 'CSSのクラスをimageタグに追加します。';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][0] = '画像の形式を変換';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][1] = 'どの画像の形式を変換するか選択できます。';
+$GLOBALS['TL_LANG']['tl_image_size']['formatsNotSupported'] = '以下の形式は使用しているサーバーでサポートしていません: %s';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][0] = 'サイズが一致した場合は元の画像を使用';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][1] = 'この場合、メタデータの取り去りやJPEGの圧縮の様な最適化は行わないことに注意してください。';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][0] = '遅延読み込みを有効';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][1] = '画像がウィンドウ内にスクロールされて表示されるまで読み込みを遅延します。';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][0] = '改訂日';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][1] = '最新のリビジョンの日付と時刻';
+$GLOBALS['TL_LANG']['tl_image_size']['title_legend'] = '画像サイズの設定';
+$GLOBALS['TL_LANG']['tl_image_size']['source_legend'] = '画像ソースの設定';
+$GLOBALS['TL_LANG']['tl_image_size']['loading_legend'] = '読み込みのオプション';
+$GLOBALS['TL_LANG']['tl_image_size']['expert_legend'] = '専門的な設定';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][0] = '縦横比を保持';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][1] = '画像の長い側を指定した寸法に調整して、画像の縦横比を保持して大きさを変更します。';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][0] = 'ボックスに一致';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][1] = '画像の短い側を指定した寸法に調整して、画像の縦横比を保持して大きさを変更します。';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][0] = '切り取り';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][1] = '画像を指定した寸法に変更します。必要な場合は画像を切り取ります。';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][0] = '新規作成';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][1] = '画像サイズを作成';
+$GLOBALS['TL_LANG']['tl_image_size']['show'] = 'ID %sの画像サイズの詳細を表示';
+$GLOBALS['TL_LANG']['tl_image_size']['edit'] = 'ID %sの画像サイズを編集';
+$GLOBALS['TL_LANG']['tl_image_size']['editheader'] = 'ID %sの画像サイズの設定を変更';
+$GLOBALS['TL_LANG']['tl_image_size']['cut'] = 'ID %sの画像サイズを移動';
+$GLOBALS['TL_LANG']['tl_image_size']['copy'] = 'ID %sの画像サイズを複製';
+$GLOBALS['TL_LANG']['tl_image_size']['delete'] = 'ID %sの画像サイズを削除';

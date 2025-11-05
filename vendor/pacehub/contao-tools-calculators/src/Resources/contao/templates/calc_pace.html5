@@ -1,0 +1,73 @@
+<h2 class="tools-h">Pace-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">Voreinstellungen</div>
+    <div class="preset-row">
+      <button type="button" class="preset" data-distance="5" data-time="00:25:00">5 km · 25:00</button>
+      <button type="button" class="preset" data-distance="10" data-time="00:50:00">10 km · 50:00</button>
+      <button type="button" class="preset" data-distance="21.0975" data-time="01:45:00">Halbmarathon · 1:45:00</button>
+      <button type="button" class="preset" data-distance="42.195" data-time="03:30:00">Marathon · 3:30:00</button>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">1 · Einheit wählen</div>
+    <div class="pace-row">
+      <label class="toggle">
+        <input type="radio" name="unit" value="km" data-field="unit" checked>
+        <span>Kilometer</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="unit" value="mi" data-field="unit">
+        <span>Meilen</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">2 · Distanz &amp; Zeit</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Distanz (<span class="js-unit-distance">km</span>)</span>
+        <input type="number" step="0.01" min="0" data-field="distance" aria-label="Distanz Zahleneingabe">
+        <input type="range" min="0" max="100" step="0.1" data-field="distance_slider" aria-label="Distanz Schieberegler">
+        <div class="quick-row">
+          <button type="button" class="quick" data-distance="1">1K</button>
+          <button type="button" class="quick" data-distance="5">5K</button>
+          <button type="button" class="quick" data-distance="10">10K</button>
+          <button type="button" class="quick" data-distance="21.0975">HM</button>
+          <button type="button" class="quick" data-distance="42.195">Marathon</button>
+        </div>
+      </label>
+      <div class="tools-field">
+        <span>Zeit</span>
+        <div class="time-triple">
+          <input type="number" min="0" step="1" placeholder="hh" data-field="time_h" aria-label="Stunden">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="mm" data-field="time_m" aria-label="Minuten">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="ss" data-field="time_s" aria-label="Sekunden">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnisse</div>
+  <div class="results-row">
+    <div><span>Distanz</span><strong class="js-res-distance">–</strong></div>
+    <div><span>Zeit</span><strong class="js-res-time">–</strong></div>
+    <div><span>Pace</span><strong class="js-res-pace">–</strong></div>
+    <div><span>Speed</span><strong class="js-res-speed">–</strong></div>
+  </div>
+  <div class="results-presets">
+    <div class="results-presets-h">Gruppierte Distanzen</div>
+    <div class="js-presets"></div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/ja/tl_theme.xlf
+$GLOBALS['TL_LANG']['tl_theme']['name'][0] = 'テーマの名前';
+$GLOBALS['TL_LANG']['tl_theme']['name'][1] = '重複しないテーマの名前を入力してください。';
+$GLOBALS['TL_LANG']['tl_theme']['author'][0] = '作成者';
+$GLOBALS['TL_LANG']['tl_theme']['author'][1] = 'テーマの設計者の名前を入力してください。';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][0] = 'フォルダー';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][1] = 'テーマに含めるフォルダーをファイルディレクトリから選択してください。';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][0] = 'テンプレートのフォルダー';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][1] = 'テーマをエクスポートする先のテンプレートのフォルダーを選択できます。';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][0] = '画面例';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][1] = 'テーマの画面例を選択できます。';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][0] = '広域変数';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][1] = 'テーマのスタイルシートの広域変数を設定できます。(例:<em>$red</em> → <em>c00</em> や <em>$margin</em> → <em>12px</em>)';
+$GLOBALS['TL_LANG']['tl_theme']['source'][0] = 'ソースファイル';
+$GLOBALS['TL_LANG']['tl_theme']['source'][1] = 'インポートする1つ以上の.ctoファイルをアップロードしてください。';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][0] = '改訂日';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][1] = '最新のリビジョンの日付と時刻';
+$GLOBALS['TL_LANG']['tl_theme']['title_legend'] = '題名と作成者';
+$GLOBALS['TL_LANG']['tl_theme']['config_legend'] = '構成';
+$GLOBALS['TL_LANG']['tl_theme']['vars_legend'] = '広域変数';
+$GLOBALS['TL_LANG']['tl_theme']['theme_imported'] = 'テーマ"%s"をインポートしました。';
+$GLOBALS['TL_LANG']['tl_theme']['checking_theme'] = 'テーマのデータを検査中';
+$GLOBALS['TL_LANG']['tl_theme']['tables_fields'] = 'テーブルと項目';
+$GLOBALS['TL_LANG']['tl_theme']['missing_field'] = 'データベースにない<strong>%s</strong>の項目はインポートしません。';
+$GLOBALS['TL_LANG']['tl_theme']['tables_ok'] = 'テーブルの検査を完了しました。';
+$GLOBALS['TL_LANG']['tl_theme']['missing_xml'] = 'テーマ"%s"は破損していてインポートできません。';
+$GLOBALS['TL_LANG']['tl_theme']['custom_templates'] = 'カスタムテンプレート';
+$GLOBALS['TL_LANG']['tl_theme']['template_exists'] = '既存のテンプレート<strong>"%s"</strong>を上書きします。';
+$GLOBALS['TL_LANG']['tl_theme']['templates_ok'] = '競合を検出しませんでした。';
+$GLOBALS['TL_LANG']['tl_theme']['store'][0] = 'テーマストア';
+$GLOBALS['TL_LANG']['tl_theme']['store'][1] = 'さらにテーマをContaoテーマストアで検索';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][0] = 'インポート';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][1] = 'テーマをインポート';
+$GLOBALS['TL_LANG']['tl_theme']['editmeta'] = 'テーマの設定を変更';
+$GLOBALS['TL_LANG']['tl_theme']['new'][0] = '新規作成';
+$GLOBALS['TL_LANG']['tl_theme']['new'][1] = '新しいテーマを作成';
+$GLOBALS['TL_LANG']['tl_theme']['show'] = 'ID %sのテーマの詳細を表示';
+$GLOBALS['TL_LANG']['tl_theme']['edit'] = 'ID %sのテーマを変更';
+$GLOBALS['TL_LANG']['tl_theme']['delete'] = 'ID %sのテーマを削除';
+$GLOBALS['TL_LANG']['tl_theme']['css'] = 'ID %sのテーマのスタイルシートを編集';
+$GLOBALS['TL_LANG']['tl_theme']['modules'] = 'ID %sのテーマのフロントエンドモジュールを編集';
+$GLOBALS['TL_LANG']['tl_theme']['layout'] = 'ID %sのテーマのページのレイアウトを編集';
+$GLOBALS['TL_LANG']['tl_theme']['imageSizes'] = 'ID %sのテーマの画像を編集';
+$GLOBALS['TL_LANG']['tl_theme']['exportTheme'] = 'ID %sのテーマをエクスポート';

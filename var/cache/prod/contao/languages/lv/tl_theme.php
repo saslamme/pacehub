@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/lv/tl_theme.xlf
+$GLOBALS['TL_LANG']['tl_theme']['name'][0] = 'Tēmas nosaukums';
+$GLOBALS['TL_LANG']['tl_theme']['name'][1] = 'Lūdzu ievadiet unikālu tēmas nosaukumu';
+$GLOBALS['TL_LANG']['tl_theme']['author'][0] = 'Vārds';
+$GLOBALS['TL_LANG']['tl_theme']['author'][1] = 'Lūdzu ievadiet tēmas dizainera vārdu.';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][0] = 'Mapes';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][1] = 'Lūdzu atlasiet mapas no datņu direktorija, kas pieder tēmai.';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][0] = 'Veidņu mape';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][1] = 'Šeit jūs varat atlasīt veidņu mapi, kas tiks eksportēta kopā ar tēmu.';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][0] = 'Ekrānuzņēmums';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][1] = 'Šeit jūs varat izvēlēties tēmas ekrānuzņēmumu.';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][0] = 'Globālie mainīgie';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][1] = 'Šeit jūs varat definēt globālos mainīgos tēmas stila lapām (piem. <em>$red</em> -> <em>c00</em> vai <em>$margin</em> -> <em>12px</em>).';
+$GLOBALS['TL_LANG']['tl_theme']['source'][0] = 'Avota datnes';
+$GLOBALS['TL_LANG']['tl_theme']['source'][1] = 'Lūdzu izvēlieties vienu vai vairākas .cto datnes no datņu direktorija.';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][0] = 'Pārskatījuma datums';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][1] = 'Pēdējā pārskatījuma datums un laiks';
+$GLOBALS['TL_LANG']['tl_theme']['title_legend'] = 'Nosaukums un autors';
+$GLOBALS['TL_LANG']['tl_theme']['config_legend'] = 'Konfigurācija';
+$GLOBALS['TL_LANG']['tl_theme']['vars_legend'] = 'Globālie mainīgie';
+$GLOBALS['TL_LANG']['tl_theme']['theme_imported'] = 'Tēma "%s" importēta.';
+$GLOBALS['TL_LANG']['tl_theme']['checking_theme'] = 'Tēmas dati tiek pārbaudīti';
+$GLOBALS['TL_LANG']['tl_theme']['tables_fields'] = 'Tabulas un lauki';
+$GLOBALS['TL_LANG']['tl_theme']['missing_field'] = 'Lauks <strong>%s</strong> trūkst datubāzē un netiks importēts.';
+$GLOBALS['TL_LANG']['tl_theme']['tables_ok'] = 'Tabulas tika veiksmīgi pārbaudītas.';
+$GLOBALS['TL_LANG']['tl_theme']['missing_xml'] = 'Tēma "%s" ir bojāta un to nevar importēt.';
+$GLOBALS['TL_LANG']['tl_theme']['custom_templates'] = 'Pielāgotas veidnes';
+$GLOBALS['TL_LANG']['tl_theme']['template_exists'] = 'Veidne <strong>"%s"</strong> eksistē un tiks pārrakstīta.';
+$GLOBALS['TL_LANG']['tl_theme']['templates_ok'] = 'Konflikti netika atklāti.';
+$GLOBALS['TL_LANG']['tl_theme']['store'][0] = 'Tēmu veikals';
+$GLOBALS['TL_LANG']['tl_theme']['store'][1] = 'Atrodi vaitāk tēmu Contao tēmu veikalā';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][0] = 'Importēt';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][1] = 'Importēt tēmu';
+$GLOBALS['TL_LANG']['tl_theme']['editmeta'] = 'Rediģēt tēmas uzstādījumus';
+$GLOBALS['TL_LANG']['tl_theme']['new'][0] = 'Jauns';
+$GLOBALS['TL_LANG']['tl_theme']['new'][1] = 'Izveidot jaunu tēmu';
+$GLOBALS['TL_LANG']['tl_theme']['show'] = 'Rādīt tēmas ID %s detaļas';
+$GLOBALS['TL_LANG']['tl_theme']['edit'] = 'Rediģēt tēmu ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['delete'] = 'Dzēst tēmu ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['css'] = 'Rediģēt tēmas ID %s stila lapas';
+$GLOBALS['TL_LANG']['tl_theme']['modules'] = 'Rediģēt tēmas ID %s priekšgala moduļus';
+$GLOBALS['TL_LANG']['tl_theme']['layout'] = 'Rediģēt tēmas ID %s lapas salikumus';
+$GLOBALS['TL_LANG']['tl_theme']['imageSizes'] = 'Rediģēt tēmas ID %s attēlu izmērus';
+$GLOBALS['TL_LANG']['tl_theme']['exportTheme'] = 'Eksportēt tēmu ID %s';

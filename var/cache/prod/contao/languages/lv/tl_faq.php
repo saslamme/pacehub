@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/faq-bundle/src/Resources/contao/languages/lv/tl_faq.xlf
+$GLOBALS['TL_LANG']['tl_faq']['question'][0] = 'Jautājums';
+$GLOBALS['TL_LANG']['tl_faq']['question'][1] = 'Lūdzu ievadiet jautājumu.';
+$GLOBALS['TL_LANG']['tl_faq']['alias'][0] = 'BUJ aizstājvārds';
+$GLOBALS['TL_LANG']['tl_faq']['alias'][1] = 'BUJ aizstājvārds ir unikāla atsauce uz BUJ, kas var tikt izsaukta ciparu ID vietā.';
+$GLOBALS['TL_LANG']['tl_faq']['author'][0] = 'Vārds';
+$GLOBALS['TL_LANG']['tl_faq']['author'][1] = 'Lūdzu izvēlieties autoru.';
+$GLOBALS['TL_LANG']['tl_faq']['answer'][0] = 'Atbilde';
+$GLOBALS['TL_LANG']['tl_faq']['answer'][1] = 'Lūdzu ievadiet atbildi';
+$GLOBALS['TL_LANG']['tl_faq']['addImage'][0] = 'Pievienot attēlu';
+$GLOBALS['TL_LANG']['tl_faq']['addImage'][1] = 'Pievienot attēlu BUJ.';
+$GLOBALS['TL_LANG']['tl_faq']['pageTitle'][0] = 'Meta nosaukums';
+$GLOBALS['TL_LANG']['tl_faq']['pageTitle'][1] = 'Šeit jūs varat pievienot pielāgotu meta nosaukumu, lai pārrakstītu noklusējuma lapas nosaukumu.';
+$GLOBALS['TL_LANG']['tl_faq']['robots'][0] = 'Robotu birkas';
+$GLOBALS['TL_LANG']['tl_faq']['robots'][1] = 'Šeit jūs varat pārrakstīt, kā meklētājprogrammas apstrādā BUJ.';
+$GLOBALS['TL_LANG']['tl_faq']['description'][0] = 'Meta apraksts';
+$GLOBALS['TL_LANG']['tl_faq']['description'][1] = 'Šeit jūs varat pievienot pielāgotu meta aprakstu, lai pārrakstītu noklusējuma lapas aprakstu.';
+$GLOBALS['TL_LANG']['tl_faq']['addEnclosure'][0] = 'Pievienot pievienojumus';
+$GLOBALS['TL_LANG']['tl_faq']['addEnclosure'][1] = 'Pievienojiet vienu vai vairākas lejupielādējamas datnes BUJ.';
+$GLOBALS['TL_LANG']['tl_faq']['enclosure'][0] = 'Pievienojumi';
+$GLOBALS['TL_LANG']['tl_faq']['enclosure'][1] = 'Lūdzu izvēlieties datnes ko vēlaties pievienot.';
+$GLOBALS['TL_LANG']['tl_faq']['noComments'][0] = 'Atspējot komentārus';
+$GLOBALS['TL_LANG']['tl_faq']['noComments'][1] = 'Neatļaut komentārus šim BUJ.';
+$GLOBALS['TL_LANG']['tl_faq']['published'][0] = 'Publicēts';
+$GLOBALS['TL_LANG']['tl_faq']['published'][1] = 'Padarīt BUJ publiski redzamu mājas lapā.';
+$GLOBALS['TL_LANG']['tl_faq']['title_legend'] = 'Nosaukums un autors';
+$GLOBALS['TL_LANG']['tl_faq']['answer_legend'] = 'Atbilde';
+$GLOBALS['TL_LANG']['tl_faq']['meta_legend'] = 'Metadati';
+$GLOBALS['TL_LANG']['tl_faq']['image_legend'] = 'Attēla iestatījumi';
+$GLOBALS['TL_LANG']['tl_faq']['enclosure_legend'] = 'Pievienojumi';
+$GLOBALS['TL_LANG']['tl_faq']['expert_legend'] = 'Eksperta iestatījumi';
+$GLOBALS['TL_LANG']['tl_faq']['publish_legend'] = 'Publicēšanas iestatījumi';
+$GLOBALS['TL_LANG']['tl_faq']['new'][0] = 'Jauns';
+$GLOBALS['TL_LANG']['tl_faq']['new'][1] = 'Izveidot jaunu jautājumu';
+$GLOBALS['TL_LANG']['tl_faq']['show'] = 'Rādīt jautājuma ID %s detaļas';
+$GLOBALS['TL_LANG']['tl_faq']['edit'] = 'Rediģēt jautājumu ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['copy'] = 'Dublicēt jautājumu ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['cut'] = 'Pārvietot jautājumu ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['delete'] = 'Dzēst jautājumu ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['toggle'] = 'Publicēt/nepublicēt jautājumu ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['pasteafter'][0] = 'Ielīmēt sākumā';
+$GLOBALS['TL_LANG']['tl_faq']['pasteafter'][1] = 'Ielīmēt aiz jautājuma ID %s';
+$GLOBALS['TL_LANG']['tl_faq']['pastenew'][0] = 'Izveidot jaunu jautājumu augšpusē';
+$GLOBALS['TL_LANG']['tl_faq']['pastenew'][1] = 'Izveidot jaunu jautājumu pēc jautājuma ID %s';

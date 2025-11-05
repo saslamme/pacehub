@@ -1,0 +1,47 @@
+<?php
+
+// vendor/contao/news-bundle/src/Resources/contao/languages/sl/tl_news_archive.xlf
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][0] = 'Naziv';
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][1] = 'Vnesite naziv za arhiv novic.';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][0] = 'Pojdi na stran';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][1] = 'Izberite stran za branje novic na katero bodo obiskovalci preusmerjeni ob kliku na novico.';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][0] = 'Omogoči komentiranje';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][1] = 'Dovoli obiskovalcem komentiranje novic.';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][0] = 'Obveščanje';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][1] = 'Prosimo izberite koga obvestiti ko je dodan nov komentar.';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][0] = 'Vrstni red';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][1] = 'Privzeto so komentarji razvrščeni naraščujoče z najstarejšim naprej.';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][0] = 'Komentarjev na stran';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][1] = 'Število komentarjev na stran. Nastavite na 0 če ne želite številčenja(paginacije).';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][0] = 'Moderiraj komentarje';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][1] = 'Odobrite komentarje preden so objavljeni na strani.';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][0] = 'Dovoli BB kodo';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][1] = 'Dovoli obiskovalcem oblikovanje komentarjev z BB kodo.';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][0] = 'Zahtevaj prijavo za komentiranje';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][1] = 'Komentiranje dovoli samo prijavljenim uporabnikom.';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][0] = 'Onemogoči zaščito pred neželeno pošto';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][1] = 'Uporabite to možnost samo če ste omejili komentiranje na prijavljene uporabnike.';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][0] = 'Zaščiti arhiv';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][1] = 'Prikaži novice samo določeni skupini članov.';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][0] = 'Dovoljene skupine uporabnikov';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][1] = 'Tem skupinam bo omogočeno branje novic v tem arhivu.';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][0] = 'Datum revizije';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][1] = 'Datum in ura zadnje revizije';
+$GLOBALS['TL_LANG']['tl_news_archive']['title_legend'] = 'Naslov in preusmeritvena stran';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments_legend'] = 'Komentarji';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected_legend'] = 'Zaščita pred dostopom';
+$GLOBALS['TL_LANG']['tl_news_archive']['feed_legend'] = 'RSS/Atom izvleček';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_admin'] = 'Administrator sistema';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_author'] = 'Avtor novice';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_both'] = 'Avtor in administrator sistema';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][0] = 'Izvleček novic';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][1] = 'Upravljaj izvlečke novic';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][0] = 'Nov';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][1] = 'Ustvari nov arhiv novic';
+$GLOBALS['TL_LANG']['tl_news_archive']['show'] = 'Prikaži podrobnosti arhiva novic z ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['edit'] = 'Uredi arhiv novic z ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['editheader'] = 'Uredi nastavitve arhiva novic z ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['editmeta'] = 'Uredi nastavitve arhiva novic';
+$GLOBALS['TL_LANG']['tl_news_archive']['copy'] = 'Podvoji arhiv novic z ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['delete'] = 'Izbriši arhiv novic z ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments'] = 'Prikaži komentarje arhiva novic z ID %s';

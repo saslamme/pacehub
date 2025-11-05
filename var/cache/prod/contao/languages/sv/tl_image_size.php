@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/sv/tl_image_size.xlf
+$GLOBALS['TL_LANG']['tl_image_size']['name'][0] = 'Namn och mediatyper';
+$GLOBALS['TL_LANG']['tl_image_size']['name'][1] = 'Ange bildstorlekens namn.';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][0] = 'Bredd';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][1] = 'Här kan du ange bredden i pixlar.';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][0] = 'Höjd';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][1] = 'Här kan du ange höjden i pixlar.';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][0] = 'Omskalningsläge';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][1] = 'Enbart tillämpbart om bredd och höjd är specificerade.';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][0] = 'Zoom';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][1] = '0 = hela bilden är synlig, 100 = enbart den viktiga delen av bilden är synlig.';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][0] = 'Storleksattribut';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][1] = 'Här kan du definiera bildens avsedda layoutbredd, den faktiska storleken ska definieras via CSS. Exempel: <em>(max-width: 600px) 100vw, 50vw</em>.';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][0] = 'Pixeltätheter/skalningsfaktorer';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][1] = 'Här kan du definiera pixeldensiteter (t.ex. <em>1x, 1,5x, 2x</em>) eller breddbeskrivare (t.ex. <em>100w, 200w</em>).';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][0] = 'CSS-klasser';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][1] = 'CSS-klasserna läggs till i bildtaggen.';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][0] = 'Konvertera bildformat';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][1] = 'Här kan du välja vilka bildformat som ska konverteras.';
+$GLOBALS['TL_LANG']['tl_image_size']['formatsNotSupported'] = 'Följande format stöds inte på din server: %s';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][0] = 'Använd originalbilden om måtten överensstämmer';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][1] = 'Observera att inga optimeringar som borttagning av metadata eller JPEG-komprimering tillämpas i detta fall.';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][0] = 'Aktivera lat laddning';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][1] = 'Skjut upp laddningen av bilden tills den rullas in i viewport.';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][0] = 'Ändringsdatum';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][1] = 'Datum och tid för senaste ändringen.';
+$GLOBALS['TL_LANG']['tl_image_size']['title_legend'] = 'Bildstorleksinställningar';
+$GLOBALS['TL_LANG']['tl_image_size']['source_legend'] = 'Bildkällinställningar';
+$GLOBALS['TL_LANG']['tl_image_size']['loading_legend'] = 'Laddningsalternativ';
+$GLOBALS['TL_LANG']['tl_image_size']['expert_legend'] = 'Expertinställningar';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][0] = 'Proportionellt';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][1] = 'Den längre sidan av bilden är justerad till den angivna dimensionen och bilden har omskalats propertionellt.';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][0] = 'Passa in i box';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][1] = 'Den kortare sidan av bilden är justerad till den angivna dimensionen och bilden har omskalats propertionellt.';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][0] = 'Beskär';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][1] = 'Bilden kommer att justeras till de givna dimensionerna. Den kommer att beskäras om det är nödvändigt.';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][0] = 'Ny';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][1] = 'Skapa en ny bildstorlek';
+$GLOBALS['TL_LANG']['tl_image_size']['show'] = 'Visa detaljer för bildstorlek med ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['edit'] = 'Redigera bildstorlek med ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['editheader'] = 'Redigera inställningar för bildstorlek med ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['cut'] = 'Flytta bildstorlek med ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['copy'] = 'Kopiera bildstorlek med ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['delete'] = 'Radera bildstorlek med ID %s';

@@ -1,0 +1,47 @@
+<h2 class="tools-h">VDOT-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">Wettkampfdistanz &amp; Zeit</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Distanz</span>
+        <select data-field="vdot_distance">
+          <option value="3.0">3 km</option>
+          <option value="5.0" selected>5 km</option>
+          <option value="10.0">10 km</option>
+          <option value="21.0975">Halbmarathon</option>
+          <option value="42.195">Marathon</option>
+          <option value="1.609344">1 Meile</option>
+        </select>
+      </label>
+      <div class="tools-field">
+        <span>Zeit</span>
+        <div class="time-triple">
+          <input type="number" min="0" step="1" placeholder="hh" data-field="vdot_h" aria-label="Stunden">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="mm" data-field="vdot_m" aria-label="Minuten">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="ss" data-field="vdot_s" aria-label="Sekunden">
+        </div>
+      </div>
+    </div>
+    <div class="tools-note">Formel nach Daniels: VDOT = VO₂ / %VO₂max, mit VO₂(v) = -4,60 + 0,182258·v + 0,000104·v² (v in m/min) und %VO₂max(t) = 0,8 + 0,1894393·e^{-0,012778·t} + 0,2989558·e^{-0,1932605·t} (t in Minuten).</div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnis</div>
+  <div class="results-row">
+    <div><span>VDOT</span><strong class="js-vdot">–</strong></div>
+    <div><span>Pace (min/km)</span><strong class="js-vdot-pace">–</strong></div>
+  </div>
+  <div class="results-presets">
+    <div class="results-presets-h">Äquivalente Leistungen</div>
+    <div class="js-vdot-equivalents"></div>
+  </div>
+</div>

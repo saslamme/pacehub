@@ -1,0 +1,26 @@
+{
+    "type": "project",
+    "require": {
+        "contao/calendar-bundle": "4.13.*",
+        "contao/comments-bundle": "4.13.*",
+        "contao/conflicts": "*@dev",
+        "contao/faq-bundle": "4.13.*",
+        "contao/listing-bundle": "4.13.*",
+        "contao/manager-bundle": "4.13.*",
+        "contao/news-bundle": "4.13.*",
+        "contao/newsletter-bundle": "4.13.*",
+        "pacehub/contao-tools-calculators": "2.0.1"
+    },
+    "extra": {
+        "public-dir": "web",
+        "contao-component-dir": "assets"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php vendor/bin/contao-setup"
+        ],
+        "post-update-cmd": [
+            "@php vendor/bin/contao-setup"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "webauthn": [],
+    "users": {
+        "saslamme": {
+            "username": "saslamme",
+            "password": "$2y$13$yaSm0nLipmhJfR6FvmTujuYRSKMsVxpRq1xr73vQa9k4AVhl4T8VK",
+            "passkey": null,
+            "scope": "admin",
+            "totp_secret": null
+        }
+    },
+    "secret": "d0ddd30e43515792ca16ae33ffbda1c1fc436b9b9578d7d009853114a2ce055a4e6ff1a4b624dc80"
+}

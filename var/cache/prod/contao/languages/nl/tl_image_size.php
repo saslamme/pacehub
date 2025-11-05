@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/nl/tl_image_size.xlf
+$GLOBALS['TL_LANG']['tl_image_size']['name'][0] = 'Naam';
+$GLOBALS['TL_LANG']['tl_image_size']['name'][1] = 'Geef een afbeeldingsgrootte naam op.';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][0] = 'Breedte';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][1] = 'Geef de breedte op in pixels.';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][0] = 'Hoogte';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][1] = 'Geef de hoogte op in pixels.';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][0] = 'Formaatwijziging modus ';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][1] = 'Alleen van toepassing indien breedte en hoogte zijn opgegeven.';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][0] = 'Zoom';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][1] = '0 = gehele afbeelding is zichtbaar, 100 = alleen het belangrijkste deel van de afbeelding is zichtbaar.';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][0] = 'Sizes attribute';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][1] = 'Hier kunt u de beoogde lay-outbreedte van de afbeelding definiëren, de werkelijke grootte moet via CSS worden gedefinieerd. Voorbeeld: <em>(max-breedte: 600px) 100vw, 50vw</em>.';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][0] = 'Pixel dichtheden/schaalfactoren';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][1] = 'Bepaal hier pixel dichtheden (b.v. <em>1x, 1.5x, 2x</em>) of breedte omschrijvingen (b.v. <em>100w, 200w</em>).';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][0] = 'CSS classes';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][1] = 'De CSS classes worden toegevoegd aan de afbeelding tag.';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][0] = 'Converteer beeldformaten';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][1] = 'Hier kunt u selecteren welke afbeeldingsindelingen worden geconverteerd.';
+$GLOBALS['TL_LANG']['tl_image_size']['formatsNotSupported'] = 'De volgende formats worden niet ondersteund op uw server: %s';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][0] = 'Gebruik de originele afbeelding als de afmetingen overeenkomen';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][1] = 'Houd er rekening mee dat in dit geval geen optimalisaties zoals het strippen van metagegevens of JPEG-compressie worden toegepast.';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][0] = 'Lazy loading inschakelen';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][1] = 'Stel het laden van de afbeelding uit totdat deze in de viewport is gescrold.';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][0] = 'Datum van aanpassing';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][1] = 'Datum en tijdstip van de laatste aanpassing.';
+$GLOBALS['TL_LANG']['tl_image_size']['title_legend'] = 'Instellingen afmetingen afbeelding';
+$GLOBALS['TL_LANG']['tl_image_size']['source_legend'] = 'Broninstellingen afbeelding';
+$GLOBALS['TL_LANG']['tl_image_size']['loading_legend'] = 'Laadopties';
+$GLOBALS['TL_LANG']['tl_image_size']['expert_legend'] = 'Expert-instellingen';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][0] = 'Proportioneel';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][1] = 'De langste zijde van het beeld wordt aangepast aan de bepaalde afmetingen het beeld wordt proportioneel aangepast.';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][0] = 'Passend';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][1] = 'De kortste zijde van het beeld wordt aangepast aan de bepaalde afmetingen en het beeld wordt proportioneel aangepast.';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][0] = 'Bijsnijden';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][1] = 'De afbeelding wordt aangepast aan de opgegeven maten. Indien nodig  wordt dit bijgesneden.';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][0] = 'Nieuw';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][1] = 'Maak een nieuw beeldformaat';
+$GLOBALS['TL_LANG']['tl_image_size']['show'] = 'Toon gegevens beeldformaat ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['edit'] = 'Bewerk beeldformaat ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['editheader'] = 'Bewerk de instellingen van beeldformaat ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['cut'] = 'Verschuiven beeldformaat ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['copy'] = 'Dupliceer beeldformaat ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['delete'] = 'Verwijder beeldformaat ID %s';

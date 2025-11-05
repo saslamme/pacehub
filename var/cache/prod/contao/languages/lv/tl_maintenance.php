@@ -1,0 +1,44 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/lv/tl_maintenance.xlf
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheTables'][0] = 'Iztīrīt datus';
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheTables'][1] = 'Lūdzu izvēlieties kešatmiņas resursus, kurus vēlaties iztīrīt.';
+$GLOBALS['TL_LANG']['tl_maintenance']['job'] = 'Darbs';
+$GLOBALS['TL_LANG']['tl_maintenance']['description'] = 'Apraksts';
+$GLOBALS['TL_LANG']['tl_maintenance']['clearCache'] = 'Iztīrīt datus';
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheCleared'] = 'Kešatmiņa tikusi iztīrīta';
+$GLOBALS['TL_LANG']['tl_maintenance']['updateHelp'] = 'Lūdzu ievadiet jūsu %s šeit.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['index'][0] = 'Iztīrīt meklēšanas indeksu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['index'][1] = 'Saīsina tabulas <code>tl_search</code>, <code>tl_search_index</code> un <code>tl_search_term</code>. Pēc tam ir jāatjauno meklēšanas indekss (skatīt iepriekš).';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['undo'][0] = 'Iztīrīt ataukšanas tabulu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['undo'][1] = 'Saīsina tabulu <code>tl_undo</code>, kurā glabājas dzēstie ieraksti. Šis uzdevums neatgriezeniski dzēš šos ierakstus';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['versions'][0] = 'Iztīrīt versiju tabulu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['versions'][1] = 'Saīsina tabulu <code>tl_version</code>, kurā tiek saglabātas ieraksta iepriekšējās versijas. Šis uzdevums neatgriezeniski dzēš šos ierakstus.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['log'][0] = 'Iztīrīt sistēmas žurnālu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['log'][1] = 'Nogriež <code>tl_log tabulu</code>, kurā glabājas visi sistēmas žurnāla ieraksti. Šis uzdevums neatgriezeniski dzēš šos ierakstus.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['crawl_queue'][0] = 'Iztīrīt pārmeklēšanas rindu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['crawl_queue'][1] = 'Saīsina tabulu <code>tl_crawl_queue</code>, kurā glabājas visa informācija par rindām no pārmeklēšanas procesiem.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['images'][0] = 'Izīrīt attēlu kešatmiņu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['images'][1] = 'Noņem automātiski ģenerētos attēlus un pēc tam attīra koplietošanas kešatmiņu, lai nebūtu saites uz dzēstiem resursiem.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['previews'][0] = 'Iztīrīt priekšskatījuma kešatmiņu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['previews'][1] = 'Noņem automātiski ģenerētos priekšskatījuma attēlus un pēc tam attīra koplietošanas kešatmiņu, lai nebūtu saites uz dzēstiem resursiem.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['scripts'][0] = 'Iztīrīt skriptu kešatmiņu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['pages'][0] = 'Iztīrīt koplietoto kešatmiņu';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['pages'][1] = 'Noņem priekšgala lapu kešatmiņas versijas. ';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['temp'][0] = 'Iztīrīt temp mapi';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['temp'][1] = 'Aizvāc pagaidu datnes';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['xml'][0] = 'Izveidot no jauna XML datnes';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['symlinks'][0] = 'Izveido no jauna simbolu saites';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['symlinks'][1] = 'Atjauno simbolu saites publiskajā mapē (dokumenta saknē).';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawler'] = 'Tīmekļa rāpulis';
+$GLOBALS['TL_LANG']['tl_maintenance']['startCrawling'] = 'Sākt pārmeklēšanu';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscribers'][0] = 'Iespējotās funkcijas';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscribers'][1] = 'Pārmeklētājs pārmeklē visus atrastos URL. Šeit varat izlemt, ko darīt ar šiem rezultātiem.';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlMember'][0] = 'Priekšgala biedrs';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlMember'][1] = 'Automātiski pieteikt priekšgala biedru, lai indeksētu aizsargātas lapas.';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlWaitToBeFinished'] = 'Pārmeklētājs pašlaik darbojas. Lūdzu, pagaidiet, kamēr tas pabeigs, lai redzētu rezultātus.';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlDebugLog'] = 'Atkļūdošanas žurnāls';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlDebugLogExplain'] = 'Ja ir radušās kļūdas vai lapas tika izlaistas, pārbaudiet atkļūdošanas žurnālu, lai iegūtu vairāk informācijas.';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlDownloadLog'] = 'Lejupielādēt žurnālu';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscriberNames']['search-index'] = 'Atjaunināt meklēšanas indeksu';
+$GLOBALS['TL_LANG']['tl_maintenance']['crawlSubscriberNames']['broken-link-checker'] = 'Meklēt bojātas saites';

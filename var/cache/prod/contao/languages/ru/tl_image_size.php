@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/ru/tl_image_size.xlf
+$GLOBALS['TL_LANG']['tl_image_size']['name'][0] = 'Имя';
+$GLOBALS['TL_LANG']['tl_image_size']['name'][1] = 'Введите имя размера изображения.';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][0] = 'Width (Ширина)';
+$GLOBALS['TL_LANG']['tl_image_size']['width'][1] = 'Вы можете ввести ширину в пикселах.';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][0] = 'Height (Высота)';
+$GLOBALS['TL_LANG']['tl_image_size']['height'][1] = 'Вы можете ввести высоту в пикселах.';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][0] = 'Режим изменения размера';
+$GLOBALS['TL_LANG']['tl_image_size']['resizeMode'][1] = 'Применяется, только если указаны ширина и высота.';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][0] = 'Увеличить';
+$GLOBALS['TL_LANG']['tl_image_size']['zoom'][1] = '0 = видно все изображение, 100 = будет видна только важная часть изображения.';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][0] = 'Атрибут размеры (sizes)';
+$GLOBALS['TL_LANG']['tl_image_size']['sizes'][1] = 'Вы можете определить предполагаемую ширину макета изображения, фактический размер должен быть определен с помощью CSS. Напр.,: <em>(max-width: 600px) 100vw, 50vw</em>.';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][0] = 'Плотность пикселей/коэффициенты масштабирования';
+$GLOBALS['TL_LANG']['tl_image_size']['densities'][1] = 'Вы можете определить плотность пикселей (напр., <em>1x, 1.5x, 2x</em>) или ширину дескрипторов (напр., <em>100w, 200w</em>).';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][0] = 'CSS классы';
+$GLOBALS['TL_LANG']['tl_image_size']['cssClass'][1] = 'CSS классы будут добавлены в тег изображения.';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][0] = 'Конвертировать форматы изображений';
+$GLOBALS['TL_LANG']['tl_image_size']['formats'][1] = 'Вы можете выбрать, какие форматы изображений будут конвертированы.';
+$GLOBALS['TL_LANG']['tl_image_size']['formatsNotSupported'] = 'На сервере не поддерживаются следующие форматы: %s';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][0] = 'Использовать оригинальное изображение, если размеры совпадают';
+$GLOBALS['TL_LANG']['tl_image_size']['skipIfDimensionsMatch'][1] = 'Обратите внимание, что в этом случае, не будет применена оптимизация, такая как удаление метаданных или сжатие JPEG.';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][0] = 'Включить отложенную загрузку';
+$GLOBALS['TL_LANG']['tl_image_size']['lazyLoading'][1] = 'Отложить загрузку изображения, до прокрутки в окне просмотра.';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][0] = 'Дата изменения';
+$GLOBALS['TL_LANG']['tl_image_size']['tstamp'][1] = 'Дата и время последнего изменения';
+$GLOBALS['TL_LANG']['tl_image_size']['title_legend'] = 'Настройки размера изображения';
+$GLOBALS['TL_LANG']['tl_image_size']['source_legend'] = 'Настройки источника изображения';
+$GLOBALS['TL_LANG']['tl_image_size']['loading_legend'] = 'Настройки загрузки';
+$GLOBALS['TL_LANG']['tl_image_size']['expert_legend'] = 'Экспертные настройки';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][0] = 'Пропорционально';
+$GLOBALS['TL_LANG']['tl_image_size']['proportional'][1] = 'Более длинная сторона изображения скорректирована относительно заданного размера и изображение изменено пропорционально.';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][0] = 'Установить поле';
+$GLOBALS['TL_LANG']['tl_image_size']['box'][1] = 'Более короткая сторона изображения скорректирована относительно заданного размера и изображение изменено пропорционально.';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][0] = 'Обрезать';
+$GLOBALS['TL_LANG']['tl_image_size']['crop'][1] = 'Изображение будет преобразовано до данного размера. При необходимости оно будет обрезано.';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][0] = 'Новый';
+$GLOBALS['TL_LANG']['tl_image_size']['new'][1] = 'Создать новый размер изображения';
+$GLOBALS['TL_LANG']['tl_image_size']['show'] = 'Показать детали размера изображения ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['edit'] = 'Редактировать размер изображения ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['editheader'] = 'Редактировать настройки размера изображения ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['cut'] = 'Переместить размер изображения ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['copy'] = 'Дублировать размер изображения ID %s';
+$GLOBALS['TL_LANG']['tl_image_size']['delete'] = 'Удалить размер изображения ID %s';

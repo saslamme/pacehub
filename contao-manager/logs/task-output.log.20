@@ -1,0 +1,30 @@
+$ /bin/php83 -q -dmax_execution_time=0 -dmemory_limit=-1 -ddisplay_errors=0 -ddisplay_startup_errors=0 -derror_reporting=0 -dallow_url_fopen=1 -ddisable_functions= -ddate.timezone=Europe/Berlin /usr/www/users/secutia/pacehub_neu/web/contao-manager.phar.php composer require pacehub/contao-tools-calculators=1.4.0 --no-update --no-scripts --prefer-stable --sort-packages --no-ansi --no-interaction
+
+
+# Process terminated with exit code 0
+# Result: OK
+
+
+> Resolving dependencies using Composer Cloud v3.8.2
+
+[7.0MiB/0.22s] Loading composer repositories with package information
+[60.2MiB/10.68s] Updating dependencies
+[23.3MiB/11.20s] Lock file operations: 0 installs, 1 update, 0 removals
+[23.3MiB/11.20s]   - Upgrading pacehub/contao-tools-calculators (1.2.0 => 1.4.0)
+[22.6MiB/11.22s] Writing lock file
+[12.5MiB/11.25s] <warning>Package doctrine/annotations is abandoned, you should avoid using it. No replacement was suggested.</warning>
+[12.5MiB/11.25s] <warning>Package doctrine/cache is abandoned, you should avoid using it. No replacement was suggested.</warning>
+[12.5MiB/11.25s] <warning>Package php-http/message-factory is abandoned, you should avoid using it. Use psr/http-factory instead.</warning>
+[12.7MiB/11.66s] No security vulnerability advisories found.
+[13.2MiB/11.68s] Memory usage: 13.19MB (peak: 155.02MB), time: 11.7s.
+[13.2MiB/11.68s] Finished Composer Cloud resolving.
+
+
+# Job ID Jx1LWfKB1hiwzyPbPyJlNpWJjwGNZbxe9APuhc1YY0s4VSXU18LOsGCCOK0ADWpPYW4kxaVNggemlPII1iUlh5ANWhq3XaTuNHCr9Zwd05BsiMWVfneW completed in 13 seconds
+# Memory usage: 13.19MB (peak: 155.02MB), time: 11.7s.
+
+$ /bin/php83 -q -dmax_execution_time=0 -dmemory_limit=-1 -ddisplay_errors=0 -ddisplay_startup_errors=0 -derror_reporting=0 -dallow_url_fopen=1 -ddisable_functions= -ddate.timezone=Europe/Berlin /usr/www/users/secutia/pacehub_neu/web/contao-manager.phar.php composer install --no-dev --no-progress --no-ansi --no-interaction --optimize-autoloader
+
+
+# Process terminated with exit code 0
+# Result: OK

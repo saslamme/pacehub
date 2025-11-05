@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/pt/tl_theme.xlf
+$GLOBALS['TL_LANG']['tl_theme']['name'][0] = 'Título do tema';
+$GLOBALS['TL_LANG']['tl_theme']['name'][1] = 'Por favor, digite um título único do tema.';
+$GLOBALS['TL_LANG']['tl_theme']['author'][0] = 'Autor';
+$GLOBALS['TL_LANG']['tl_theme']['author'][1] = 'Por favor, insira o nome do designer do tema.';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][0] = 'Pastas';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][1] = 'Por favor, selecione as pastas que pertencem ao tema a partir do diretório de arquivos.';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][0] = 'Pasta de modelos';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][1] = 'Aqui você pode selecionar uma pasta de modelos que serão exportados com o tema.';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][0] = 'Imagem do thema';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][1] = 'Aqui você pode escolher uma imagem do tema.';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][0] = 'Variáveis globais';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][1] = 'Aqui você pode definir variáveis ​​globais para as folhas de estilo (CSS) do tema (por exemplo, <em>$red</em> -> <em>c00</em> ou <em>$margin</em> -> <em>12px</em>).';
+$GLOBALS['TL_LANG']['tl_theme']['source'][0] = 'Arquivos fonte';
+$GLOBALS['TL_LANG']['tl_theme']['source'][1] = 'Por favor, escolha um ou mais arquivos .cto do diretório de arquivos.';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][0] = 'Data da última alteração';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][1] = 'Data e hora da última alteração';
+$GLOBALS['TL_LANG']['tl_theme']['title_legend'] = 'Título e autor';
+$GLOBALS['TL_LANG']['tl_theme']['config_legend'] = 'Configuração';
+$GLOBALS['TL_LANG']['tl_theme']['vars_legend'] = 'Variáveis globais';
+$GLOBALS['TL_LANG']['tl_theme']['theme_imported'] = 'Tema "%s" foi importado.';
+$GLOBALS['TL_LANG']['tl_theme']['checking_theme'] = 'A data do tema está sendo verificada.';
+$GLOBALS['TL_LANG']['tl_theme']['tables_fields'] = 'Tabelas e campos';
+$GLOBALS['TL_LANG']['tl_theme']['missing_field'] = 'O campo <strong>%s</strong> está faltando no banco de dados e não serão importados.';
+$GLOBALS['TL_LANG']['tl_theme']['tables_ok'] = 'As tabelas foram verificados com sucesso.';
+$GLOBALS['TL_LANG']['tl_theme']['missing_xml'] = 'A tema "%s" é corrompido e não pode ser importado.';
+$GLOBALS['TL_LANG']['tl_theme']['custom_templates'] = 'Modelos personalizados';
+$GLOBALS['TL_LANG']['tl_theme']['template_exists'] = 'O modelo <strong>"%s"</strong> existe e será sobrescrito.';
+$GLOBALS['TL_LANG']['tl_theme']['templates_ok'] = 'Nenhum conflito detectado.';
+$GLOBALS['TL_LANG']['tl_theme']['store'][0] = 'Loja de Temas';
+$GLOBALS['TL_LANG']['tl_theme']['store'][1] = 'Encontre mais temas na Loja de Temas do Contao';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][0] = 'Importar';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][1] = 'Importar um tema';
+$GLOBALS['TL_LANG']['tl_theme']['editmeta'] = 'Editar as configurações do tema';
+$GLOBALS['TL_LANG']['tl_theme']['new'][0] = 'Novo';
+$GLOBALS['TL_LANG']['tl_theme']['new'][1] = 'Criar uma nova tema';
+$GLOBALS['TL_LANG']['tl_theme']['show'] = 'Mostrar os detalhes da tema ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['edit'] = 'Editar ID da tema %s';
+$GLOBALS['TL_LANG']['tl_theme']['delete'] = 'Excluir tema ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['css'] = 'Editar as folhas de estilo do tema ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['modules'] = 'Editar os módulos "front-end" do tema ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['layout'] = 'Editar os layouts de página do tema ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['imageSizes'] = 'Editar os tamanhos de imagem do tema ID 1%s';
+$GLOBALS['TL_LANG']['tl_theme']['exportTheme'] = 'Exportação do tema ID %s';

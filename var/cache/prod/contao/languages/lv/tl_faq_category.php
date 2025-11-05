@@ -1,0 +1,40 @@
+<?php
+
+// vendor/contao/faq-bundle/src/Resources/contao/languages/lv/tl_faq_category.xlf
+$GLOBALS['TL_LANG']['tl_faq_category']['title'][0] = 'Virsraksts';
+$GLOBALS['TL_LANG']['tl_faq_category']['title'][1] = 'Lūdzu, ievadiet kategorijas nosaukumu.';
+$GLOBALS['TL_LANG']['tl_faq_category']['headline'][0] = 'Virsraksts';
+$GLOBALS['TL_LANG']['tl_faq_category']['headline'][1] = 'Lūdzu, ievadiet kategorijas virsrakstu.';
+$GLOBALS['TL_LANG']['tl_faq_category']['jumpTo'][0] = 'Pārsūtīšanas lapa';
+$GLOBALS['TL_LANG']['tl_faq_category']['jumpTo'][1] = 'Lūdzu, izvēlieties BUJ lasītāja lapu, uz kuru tiks novirzīti apmeklētāji, kad uzklikšķinās uz BUJ.';
+$GLOBALS['TL_LANG']['tl_faq_category']['allowComments'][0] = 'Iespējot komentārus';
+$GLOBALS['TL_LANG']['tl_faq_category']['allowComments'][1] = 'Atļaut apmeklētājiem komentēt BUJ.';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify'][0] = 'Ziņot';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify'][1] = 'Lūdzu, izvēlieties kam paziņot par komentāru pievienošanu.';
+$GLOBALS['TL_LANG']['tl_faq_category']['sortOrder'][0] = 'Kārtošanas kārtība';
+$GLOBALS['TL_LANG']['tl_faq_category']['sortOrder'][1] = 'Pēc noklusējuma komentāri tiek kārtoti dilstoši, sākot ar vecāko.';
+$GLOBALS['TL_LANG']['tl_faq_category']['perPage'][0] = 'Komentāri lapā';
+$GLOBALS['TL_LANG']['tl_faq_category']['perPage'][1] = 'Komentāru skaits lapā. Ielikt 0, lai atspējotu lapdali.';
+$GLOBALS['TL_LANG']['tl_faq_category']['moderate'][0] = 'Komentāru cenzūra';
+$GLOBALS['TL_LANG']['tl_faq_category']['moderate'][1] = 'Apstiprināt komentārus pirms tie tiek publicēti mājas lapā.';
+$GLOBALS['TL_LANG']['tl_faq_category']['bbcode'][0] = 'Atļaut BBCode';
+$GLOBALS['TL_LANG']['tl_faq_category']['bbcode'][1] = 'Atļaut apmeklētājiem lieot BBCode komentāru formatēšanai.';
+$GLOBALS['TL_LANG']['tl_faq_category']['requireLogin'][0] = 'Prasīt pieslēgties, lai komentētu';
+$GLOBALS['TL_LANG']['tl_faq_category']['requireLogin'][1] = 'Atļaut tikai autorizētiem biedriem izveidot komentārus.';
+$GLOBALS['TL_LANG']['tl_faq_category']['disableCaptcha'][0] = 'Atspējot aizsardzību pret surogātpastu ';
+$GLOBALS['TL_LANG']['tl_faq_category']['disableCaptcha'][1] = 'Izmantojiet šo opciju tikai tad, ja jūs esat atļavis komentārus tikai reģistrētiem lietotājiem.';
+$GLOBALS['TL_LANG']['tl_faq_category']['tstamp'][0] = 'Pārskatījuma datums';
+$GLOBALS['TL_LANG']['tl_faq_category']['tstamp'][1] = 'Pēdējā pārskatījuma datums un laiks';
+$GLOBALS['TL_LANG']['tl_faq_category']['title_legend'] = 'Nosaukums un pārsūtīšana';
+$GLOBALS['TL_LANG']['tl_faq_category']['comments_legend'] = 'Komentāri';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify_admin'] = 'Sistēmas administrators';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify_author'] = 'BUJ autors';
+$GLOBALS['TL_LANG']['tl_faq_category']['notify_both'] = 'Autors un sistēmas administrators';
+$GLOBALS['TL_LANG']['tl_faq_category']['new'][0] = 'Jauns';
+$GLOBALS['TL_LANG']['tl_faq_category']['new'][1] = 'Izveidot jaunu kategoriju';
+$GLOBALS['TL_LANG']['tl_faq_category']['show'] = 'Rādīt kategorijas ID %s detaļas';
+$GLOBALS['TL_LANG']['tl_faq_category']['edit'] = 'Rediģēt kategoriju ID %s';
+$GLOBALS['TL_LANG']['tl_faq_category']['editheader'] = 'Rediģēt kategorijas ID %s iestatījumus';
+$GLOBALS['TL_LANG']['tl_faq_category']['editmeta'] = 'Rediģēt kategorijas iestatījumus';
+$GLOBALS['TL_LANG']['tl_faq_category']['copy'] = 'Dublicēt kategoriju ID %s';
+$GLOBALS['TL_LANG']['tl_faq_category']['delete'] = 'Dzēst kategoriju ID %s';

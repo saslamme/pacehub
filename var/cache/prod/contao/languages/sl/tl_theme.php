@@ -1,0 +1,46 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/sl/tl_theme.xlf
+$GLOBALS['TL_LANG']['tl_theme']['name'][0] = 'Naslov teme';
+$GLOBALS['TL_LANG']['tl_theme']['name'][1] = 'Prosimo, vnseite edinstveno ime teme.';
+$GLOBALS['TL_LANG']['tl_theme']['author'][0] = 'Avtor';
+$GLOBALS['TL_LANG']['tl_theme']['author'][1] = 'Prosimo, vnesite ime ustvarjalca teme.';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][0] = 'Imeniki';
+$GLOBALS['TL_LANG']['tl_theme']['folders'][1] = 'Prosimo, izberite mape iz datotečnega imenika, ki pripadajo tej temi.';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][0] = 'Imenik predlog';
+$GLOBALS['TL_LANG']['tl_theme']['templates'][1] = 'Tu lahko izberete imenik predlog, ki bo izvožen skupaj s temo.';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][0] = 'Predogled teme';
+$GLOBALS['TL_LANG']['tl_theme']['screenshot'][1] = 'Tu lahko izberete predogledno sliko teme.';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][0] = 'Globalne spremenljivke';
+$GLOBALS['TL_LANG']['tl_theme']['vars'][1] = 'Tukaj lahko definirate globalne spremenljivke za css teme (npr. <em>$red</em> -> <em>c00</em> or <em>$margin</em> -> <em>12px</em>).';
+$GLOBALS['TL_LANG']['tl_theme']['source'][0] = 'Izvorne datoteke';
+$GLOBALS['TL_LANG']['tl_theme']['source'][1] = 'Prosimo, izberite eno ali več .cto datotek iz datotečnega imenika.';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][0] = 'Datum revizije';
+$GLOBALS['TL_LANG']['tl_theme']['tstamp'][1] = 'Datum in ura zadnje revizije';
+$GLOBALS['TL_LANG']['tl_theme']['title_legend'] = 'Naslov in avtor';
+$GLOBALS['TL_LANG']['tl_theme']['config_legend'] = 'Nastavitev';
+$GLOBALS['TL_LANG']['tl_theme']['vars_legend'] = 'Globalne spremenljivke';
+$GLOBALS['TL_LANG']['tl_theme']['theme_imported'] = 'Tema "%s" je bila uvožena.';
+$GLOBALS['TL_LANG']['tl_theme']['checking_theme'] = 'Podatki teme se pregledujejo';
+$GLOBALS['TL_LANG']['tl_theme']['tables_fields'] = 'Tabele in polja';
+$GLOBALS['TL_LANG']['tl_theme']['missing_field'] = 'Polje <strong>%s</strong> manjka v podatkovni bazi in ga zato ne bom mogel uvoziti.';
+$GLOBALS['TL_LANG']['tl_theme']['tables_ok'] = 'Tabele so bile uspešno pregledane.';
+$GLOBALS['TL_LANG']['tl_theme']['missing_xml'] = 'Tema "%s" je okvarjena in ne more biti uvožena.';
+$GLOBALS['TL_LANG']['tl_theme']['custom_templates'] = 'Predloge po meeri';
+$GLOBALS['TL_LANG']['tl_theme']['template_exists'] = 'Predloga <strong>"%s"</strong> že obstaja in bo prepisana.';
+$GLOBALS['TL_LANG']['tl_theme']['templates_ok'] = 'Težav ni bilo zaznanih.';
+$GLOBALS['TL_LANG']['tl_theme']['store'][0] = 'Trgovina tem';
+$GLOBALS['TL_LANG']['tl_theme']['store'][1] = 'Naj več tem v Contao trgovini tem.';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][0] = 'Uvoz';
+$GLOBALS['TL_LANG']['tl_theme']['importTheme'][1] = 'Uvozi temo';
+$GLOBALS['TL_LANG']['tl_theme']['editmeta'] = 'Uredi nastavitve teme';
+$GLOBALS['TL_LANG']['tl_theme']['new'][0] = 'Nov';
+$GLOBALS['TL_LANG']['tl_theme']['new'][1] = 'Ustvari novo temo';
+$GLOBALS['TL_LANG']['tl_theme']['show'] = 'Prikaži podrobnosti teme ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['edit'] = 'Uredi temo z ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['delete'] = 'Izbriši temo z ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['css'] = 'Uredi slogovne predloge teme ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['modules'] = 'Uredi predstavitvene module (front end) teme z ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['layout'] = 'Uredi postavitve strani teme z ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['imageSizes'] = 'Uredi velikosti slik teme ID %s';
+$GLOBALS['TL_LANG']['tl_theme']['exportTheme'] = 'Izvoz teme ID %s';

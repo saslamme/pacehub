@@ -1,0 +1,60 @@
+<h2 class="tools-h">VO₂max-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">Methode wählen</div>
+    <div class="pace-row">
+      <label class="toggle">
+        <input type="radio" name="vo2method" value="cooper" data-field="vo2_method" checked>
+        <span>Cooper-Test (12&nbsp;Minuten)</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="vo2method" value="hr" data-field="vo2_method">
+        <span>Herzfrequenz (Uth–Sørensen)</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pace-step vo2-cooper">
+    <div class="pace-step-h">Cooper-Test</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Zurückgelegte Distanz in 12&nbsp;Minuten (Meter)</span>
+        <input type="number" min="0" step="1" data-field="cooper_m" placeholder="z. B. 3000">
+        <div class="quick-row">
+          <button type="button" class="quick" data-cooper="2400">2400 m</button>
+          <button type="button" class="quick" data-cooper="2800">2800 m</button>
+          <button type="button" class="quick" data-cooper="3000">3000 m</button>
+          <button type="button" class="quick" data-cooper="3200">3200 m</button>
+        </div>
+      </label>
+      <div class="tools-note">Formel: VO₂max ≈ (Meter − 504,9) / 44,73</div>
+    </div>
+  </div>
+
+  <div class="pace-step vo2-hr" style="display:none">
+    <div class="pace-step-h">Herzfrequenz-basiert</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Ruhepuls (bpm)</span>
+        <input type="number" min="20" max="120" step="1" data-field="hr_rest" placeholder="z. B. 60">
+      </label>
+      <label class="tools-field">
+        <span>Maximalpuls (bpm)</span>
+        <input type="number" min="100" max="220" step="1" data-field="hr_max" placeholder="z. B. 190">
+      </label>
+    </div>
+    <div class="tools-note">Formel (Uth–Sørensen–Overgaard–Pedersen): VO₂max ≈ 15,3 × (HR<sub>max</sub> / HR<sub>rest</sub>)</div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnis</div>
+  <div class="results-row">
+    <div><span>VO₂max</span><strong class="js-vo2">–</strong></div>
+  </div>
+</div>

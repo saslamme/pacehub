@@ -1,0 +1,14 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+  <?php if ($this->keys): ?>
+    <dl>
+      <?php foreach ($this->keys as $key => $value): ?>
+        <dt><?= $key ?></dt>
+        <dd><?= $value ?></dd>
+      <?php endforeach; ?>
+    </dl>
+  <?php endif; ?>
+
+<?php $this->endblock(); ?>

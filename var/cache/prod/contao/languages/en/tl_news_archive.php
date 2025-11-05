@@ -1,0 +1,47 @@
+<?php
+
+// vendor/contao/news-bundle/src/Resources/contao/languages/en/tl_news_archive.xlf
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][0] = 'Title';
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][1] = 'Please enter a news archive title.';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][0] = 'Redirect page';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][1] = 'Please choose the news reader page to which visitors will be redirected when clicking a news item.';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][0] = 'Enable comments';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][1] = 'Allow visitors to comment news items.';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][0] = 'Notify';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][1] = 'Please choose who to notify when comments are added.';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][0] = 'Sort order';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][1] = 'By default, comments are sorted ascending, starting with the oldest one.';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][0] = 'Comments per page';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][1] = 'Number of comments per page. Set to 0 to disable pagination.';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][0] = 'Moderate comments';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][1] = 'Approve comments before they are published on the website.';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][0] = 'Allow BBCode';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][1] = 'Allow visitors to format their comments with BBCode.';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][0] = 'Require login to comment';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][1] = 'Allow only authenticated members to create comments.';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][0] = 'Disable spam protection';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][1] = 'Use this option only if you have limited comments to authenticated users.';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][0] = 'Protect archive';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][1] = 'Show news items to certain member groups only.';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][0] = 'Allowed member groups';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][1] = 'These groups will be able to see the news items in this archive.';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][0] = 'Revision date';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][1] = 'Date and time of the latest revision';
+$GLOBALS['TL_LANG']['tl_news_archive']['title_legend'] = 'Title and redirect page';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments_legend'] = 'Comments';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected_legend'] = 'Access protection';
+$GLOBALS['TL_LANG']['tl_news_archive']['feed_legend'] = 'RSS/Atom feed';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_admin'] = 'System administrator';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_author'] = 'Author of the news item';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_both'] = 'Author and system administrator';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][0] = 'News feeds';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][1] = 'Manage news feeds';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][0] = 'New';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][1] = 'Create a new news archive';
+$GLOBALS['TL_LANG']['tl_news_archive']['show'] = 'Show the details of news archive ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['edit'] = 'Edit news archive ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['editheader'] = 'Edit the settings of news archive ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['editmeta'] = 'Edit the news archive settings';
+$GLOBALS['TL_LANG']['tl_news_archive']['copy'] = 'Duplicate news archive ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['delete'] = 'Delete news archive ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments'] = 'Show comments of news archive ID %s';

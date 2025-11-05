@@ -1,0 +1,19 @@
+{
+  "name": "pacehub/contao-tools-calculators",
+  "description": "Pace-Rechner (Contao 4.13) mit Live-Rechnen, Slidern und Backend-Ranges. Cache-Busting JS-Dateiname.",
+  "type": "contao-bundle",
+  "version": "2.1.0",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "contao/core-bundle": "^4.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pacehub\\ToolsCalculatorsBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Pacehub\\ToolsCalculatorsBundle\\ContaoManager\\Plugin"
+  }
+}

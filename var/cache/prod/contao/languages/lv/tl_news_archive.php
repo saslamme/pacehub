@@ -1,0 +1,47 @@
+<?php
+
+// vendor/contao/news-bundle/src/Resources/contao/languages/lv/tl_news_archive.xlf
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][0] = 'Virsraksts';
+$GLOBALS['TL_LANG']['tl_news_archive']['title'][1] = 'Lūdzu ievadiet jaunumu arhīva virsrakstu.';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][0] = 'Pārsūtīšanas lapa';
+$GLOBALS['TL_LANG']['tl_news_archive']['jumpTo'][1] = 'Lūdzu, izvēlieties jaunumu lasītāja lapu, uz kuru apmeklētāji tiks novirzīti, kad noklikšķinās uz jaunumu vienuma.';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][0] = 'Iespējot komentārus';
+$GLOBALS['TL_LANG']['tl_news_archive']['allowComments'][1] = 'Ļauj apmeklētājiem komentēt jaunumu vienumus.';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][0] = 'Ziņot';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify'][1] = 'Lūdzu, izvēlieties kam paziņot par komentāru pievienošanu.';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][0] = 'Kārtošanas kārtība';
+$GLOBALS['TL_LANG']['tl_news_archive']['sortOrder'][1] = 'Pēc noklusējuma komentāri tiek kārtoti dilstoši, sākot ar vecāko.';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][0] = 'Komentāri lapā';
+$GLOBALS['TL_LANG']['tl_news_archive']['perPage'][1] = 'Komentāru skaits lapā. Ielikt 0, lai atspējotu lapdali.';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][0] = 'Komentāru cenzūra';
+$GLOBALS['TL_LANG']['tl_news_archive']['moderate'][1] = 'Apstiprināt komentārus pirms tie tiek publicēti mājas lapā.';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][0] = 'Atļaut BBCode';
+$GLOBALS['TL_LANG']['tl_news_archive']['bbcode'][1] = 'Atļaut apmeklētājiem lieot BBCode komentāru formatēšanai.';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][0] = 'Prasīt pieslēgties, lai komentētu';
+$GLOBALS['TL_LANG']['tl_news_archive']['requireLogin'][1] = 'Atļaut tikai autorizētiem biedriem izveidot komentārus.';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][0] = 'Atspējot aizsardzību pret surogātpastu ';
+$GLOBALS['TL_LANG']['tl_news_archive']['disableCaptcha'][1] = 'Izmantojiet šo opciju tikai tad, ja jūs esat atļavis komentārus tikai reģistrētiem lietotājiem.';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][0] = 'Aizsargāt arhīvu';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected'][1] = 'Rādīt jaunumu vienumus tikai noteiktām biedru grupām.';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][0] = 'Atļautās biedru grupas';
+$GLOBALS['TL_LANG']['tl_news_archive']['groups'][1] = 'Šīm biedru grupām tiks atļauts apskatīt šī arhīva ziņas.';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][0] = 'Pārskatījuma datums';
+$GLOBALS['TL_LANG']['tl_news_archive']['tstamp'][1] = 'Pēdējā pārskatījuma datums un laiks';
+$GLOBALS['TL_LANG']['tl_news_archive']['title_legend'] = 'Nosaukums un virzienmaiņas lapa';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments_legend'] = 'Komentāri';
+$GLOBALS['TL_LANG']['tl_news_archive']['protected_legend'] = 'Piekļuves aizsardzība';
+$GLOBALS['TL_LANG']['tl_news_archive']['feed_legend'] = 'RSS/Atom barotne';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_admin'] = 'Sistēmas administrators';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_author'] = 'Jaunumu vienuma autors';
+$GLOBALS['TL_LANG']['tl_news_archive']['notify_both'] = 'Autors un sistēmas administrators';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][0] = 'Jaunumu barotnes';
+$GLOBALS['TL_LANG']['tl_news_archive']['feeds'][1] = 'Pārvaldīt jaunumu plūsmas';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][0] = 'Jauns';
+$GLOBALS['TL_LANG']['tl_news_archive']['new'][1] = 'Izveidot jaunu jaunumu arhīvu';
+$GLOBALS['TL_LANG']['tl_news_archive']['show'] = 'Rādīt jaunumu arhīva ID %s detaļas';
+$GLOBALS['TL_LANG']['tl_news_archive']['edit'] = 'Rediģēt jaunumu arhīvu ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['editheader'] = 'Rediģēt jaunumu arhīva ID %s iestatījumus';
+$GLOBALS['TL_LANG']['tl_news_archive']['editmeta'] = 'Rediģēt jaunumu arhīva iestatījumus';
+$GLOBALS['TL_LANG']['tl_news_archive']['copy'] = 'Dublēt jaunumu arhīvu ID %s ';
+$GLOBALS['TL_LANG']['tl_news_archive']['delete'] = 'Dzēst jaunumu arhīvu ID %s';
+$GLOBALS['TL_LANG']['tl_news_archive']['comments'] = 'Rādīt jaunumu arhīva ID %s komentārus';

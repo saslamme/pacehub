@@ -1,0 +1,19 @@
+<?php
+/** @var Template $this */
+$type = $this->calculatorType ?: 'pace';
+?>
+<div class="tools-card" data-calculator="<?= $type ?>"
+     data-default-distance="<?= (float) $this->defaultDistance ?>"
+     data-unit="<?= $this->unit === 'mi' ? 'mi' : 'km' ?>"
+     data-show-speed="<?= $this->showSpeed ? '1' : '0' ?>"
+     data-distance-min="<?= $this->distanceMin ?>"
+     data-distance-max="<?= $this->distanceMax ?>"
+     data-distance-step="<?= $this->distanceStep ?>"
+     data-speed-min="<?= $this->speedMin ?>"
+     data-speed-max="<?= $this->speedMax ?>"
+     data-speed-step="<?= $this->speedStep ?>">
+
+  <?php $this->insert($this->calculatorType === 'vo2max' ? 'calc_vo2max' : ($this->calculatorType === 'vdot' ? 'calc_vdot' : 'calc_pace')); ?>
+
+  <p class="tools-error" aria-live="polite" hidden></p>
+</div>

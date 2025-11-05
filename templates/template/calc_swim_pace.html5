@@ -1,0 +1,77 @@
+<?php $poolFieldName = 'swim_pool_length_' . ($this->id ?? uniqid()); ?>
+
+<h2 class="tools-h">Schwimm-Pace-Rechner</h2>
+
+<div class="pace-steps">
+  <div class="pace-step">
+    <div class="pace-step-h">Voreinstellungen</div>
+    <div class="preset-row">
+      <button type="button" class="preset" data-distance="400" data-time="00:06:00">400 m · 6:00</button>
+      <button type="button" class="preset" data-distance="750" data-time="00:12:30">750 m · 12:30</button>
+      <button type="button" class="preset" data-distance="1500" data-time="00:25:00">1500 m · 25:00</button>
+      <button type="button" class="preset" data-distance="3800" data-time="01:05:00">3800 m · 1:05:00</button>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">1 · Beckenlänge</div>
+    <div class="pace-row">
+      <label class="toggle">
+        <input type="radio" name="<?= $poolFieldName ?>" value="25" data-field="pool_length" checked>
+        <span>25 m (Kurzbahn)</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="<?= $poolFieldName ?>" value="50" data-field="pool_length">
+        <span>50 m (Langbahn)</span>
+      </label>
+      <label class="toggle">
+        <input type="radio" name="<?= $poolFieldName ?>" value="33.333" data-field="pool_length">
+        <span>33⅓ m (Freiluft)</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pace-step">
+    <div class="pace-step-h">2 · Distanz &amp; Zeit</div>
+    <div class="pace-grid-2">
+      <label class="tools-field">
+        <span>Distanz (m)</span>
+        <input type="number" step="1" min="0" data-field="distance" aria-label="Distanz in Metern">
+        <input type="range" min="0" max="10000" step="10" data-field="distance_slider" aria-label="Distanz Schieberegler">
+        <div class="quick-row">
+          <button type="button" class="quick" data-distance="50">50 m</button>
+          <button type="button" class="quick" data-distance="100">100 m</button>
+          <button type="button" class="quick" data-distance="200">200 m</button>
+          <button type="button" class="quick" data-distance="400">400 m</button>
+          <button type="button" class="quick" data-distance="1500">1500 m</button>
+        </div>
+      </label>
+      <div class="tools-field">
+        <span>Zeit</span>
+        <div class="time-triple">
+          <input type="number" min="0" step="1" placeholder="hh" data-field="time_h" aria-label="Stunden">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="mm" data-field="time_m" aria-label="Minuten">
+          <span>:</span>
+          <input type="number" min="0" max="59" step="1" placeholder="ss" data-field="time_s" aria-label="Sekunden">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tools-actions">
+  <button type="button" data-action="reset" class="btn-secondary">Zurücksetzen</button>
+</div>
+
+<div class="pace-results">
+  <div class="results-h">Ergebnisse</div>
+  <div class="results-row">
+    <div><span>Distanz</span><strong class="js-res-distance">–</strong></div>
+    <div><span>Zeit</span><strong class="js-res-time">–</strong></div>
+    <div><span>Pace /100 m</span><strong class="js-res-pace-100m">–</strong></div>
+    <div><span>Pace /100 yd</span><strong class="js-res-pace-100yd">–</strong></div>
+    <div><span>Geschwindigkeit</span><strong class="js-res-speed">–</strong></div>
+    <div><span>Bahnen</span><strong class="js-res-lengths">–</strong></div>
+  </div>
+</div>

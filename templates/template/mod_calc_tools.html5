@@ -1,0 +1,37 @@
+<?php
+/** @var Template $this */
+$type = $this->calculatorType ?: 'pace';
+?>
+<div class="tools-card" data-calculator="<?= $type ?>"
+     data-default-distance="<?= (float) $this->defaultDistance ?>"
+     data-unit="<?= $this->unit === 'mi' ? 'mi' : 'km' ?>"
+     data-show-speed="<?= $this->showSpeed ? '1' : '0' ?>"
+     data-distance-min="<?= $this->distanceMin ?>"
+     data-distance-max="<?= $this->distanceMax ?>"
+     data-distance-step="<?= $this->distanceStep ?>"
+     data-speed-min="<?= $this->speedMin ?>"
+     data-speed-max="<?= $this->speedMax ?>"
+     data-speed-step="<?= $this->speedStep ?>">
+
+<?php
+  $template = 'calc_pace';
+  if ($this->calculatorType === 'vo2max') {
+    $template = 'calc_vo2max';
+  } elseif ($this->calculatorType === 'vdot') {
+    $template = 'calc_vdot';
+  } elseif ($this->calculatorType === 'bike_watt') {
+    $template = 'calc_bike_watt';
+  } elseif ($this->calculatorType === 'ftp') {
+    $template = 'calc_ftp';
+  } elseif ($this->calculatorType === 'bmi') {
+    $template = 'calc_bmi';
+  } elseif ($this->calculatorType === 'bodyfat') {
+    $template = 'calc_bodyfat';
+  } elseif ($this->calculatorType === 'swim_pace') {
+    $template = 'calc_swim_pace';
+  }
+  $this->insert($template);
+?>
+
+  <p class="tools-error" aria-live="polite" hidden></p>
+</div>

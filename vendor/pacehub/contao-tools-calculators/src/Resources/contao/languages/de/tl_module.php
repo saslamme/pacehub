@@ -25,6 +25,7 @@ $GLOBALS['TL_LANG']['tl_module']['calc_speed_step'][1] = 'Schrittweite für den 
 
 // Referenzen
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['pace'] = 'Pace-Rechner';
+$GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['swim_pace'] = 'Schwimm-Pace-Rechner';
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['vo2max'] = 'VO₂max-Rechner';
 
 $GLOBALS['TL_LANG']['tl_module']['calc_tools_type_ref']['vdot'] = 'VDOT-Rechner';

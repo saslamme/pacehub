@@ -25,6 +25,8 @@ $type = $this->calculatorType ?: 'pace';
     $template = 'calc_ftp';
   } elseif ($this->calculatorType === 'bmi') {
     $template = 'calc_bmi';
+  } elseif ($this->calculatorType === 'bodyfat') {
+    $template = 'calc_bodyfat';
   }
   $this->insert($template);
 ?>

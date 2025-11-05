@@ -23,7 +23,7 @@ class CalcTools extends Module
         $this->Template->speedStep = (string) ($this->calc_speed_step !== null && $this->calc_speed_step !== '' ? $this->calc_speed_step : '0.1');
 
         // Cache-busted JS filename
-        $GLOBALS['TL_JAVASCRIPT']['tools_calculators'] = 'bundles/toolscalculators/tools.v185.js|static';
+        $GLOBALS['TL_JAVASCRIPT']['tools_calculators'] = 'bundles/toolscalculators/tools.v186.js|static';
         $GLOBALS['TL_CSS']['tools_calculators'] = 'bundles/toolscalculators/tools.css|static';
     }
 }

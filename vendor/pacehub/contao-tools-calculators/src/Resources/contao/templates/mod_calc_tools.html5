@@ -23,6 +23,8 @@ $type = $this->calculatorType ?: 'pace';
     $template = 'calc_bike_watt';
   } elseif ($this->calculatorType === 'ftp') {
     $template = 'calc_ftp';
+  } elseif ($this->calculatorType === 'bmi') {
+    $template = 'calc_bmi';
   }
   $this->insert($template);
 ?>
